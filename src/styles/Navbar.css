@@ -1,0 +1,66 @@
+
+nav {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #047BD5;
+    top: 0%;
+    z-index: 10;
+    > main{
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+}
+.nv{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+.nv:hover{
+    color: yellow;
+}
+.navbar .active{
+    color: #047BD5;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.ull{
+    list-style: none;
+}
+img{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    max-width: 10vw ;
+    
+}
+.sea{
+    width: 30vw;
+    height: 6vh;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-right: 0;
+}
+.sicon{
+    max-height: 3vw;
+    margin-left: 0.3rem;
+    max-width: 3vw;
+    height: 6vh;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.ss{
+    max-width: 2.5vw;
+}
+.hey{
+    display: flex;
+}
+.cion{
+    max-width: 3vw;
+}
